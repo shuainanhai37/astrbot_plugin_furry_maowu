@@ -1,0 +1,7 @@
+{
+  "api_base": {
+    "description": "兽云祭 API 基础地址（如官方地址变更或需要走镜像，可在此修改）",
+    "type": "string",
+    "default": "https://cloud.foxtail.cn/api/function"
+  }
+}

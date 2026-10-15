@@ -1,6 +1,8 @@
-name: helloworld # 插件唯一识别名，以 astrbot_plugin_ 前缀开头
-display_name: helloworld # 用于展示的名字，可以是方便人类阅读的名字（需要版本 >= v4.5.0，低版本不会报错，请放心填写）
-desc: AstrBot 插件示例。 # 插件简短描述
-version: v1.3.0 # 插件版本号。格式：v1.1.1 或者 v1.1
-author: Soulter # 作者
-repo: https://github.com/Soulter/helloworld # 插件的仓库地址
+name: astrbot_plugin_furry_maowu # 插件唯一识别名，需与目录名一致
+display_name: 兽云祭毛毛图 # 用于展示的名字
+desc: 基于兽云祭 API 的毛毛图片插件。发送「随机毛毛」获取随机毛毛图，发送「来只 名字」检索指定名字的毛毛图。仅支持 QQ 平台。 # 插件简短描述
+version: 1.0.0 # 插件版本号
+author: 你的名字（请修改为你的昵称） # 作者
+repo: https://github.com/your-name/astrbot_plugin_furry_maowu # 插件仓库地址（请修改）
+support_platforms: # 声明支持的平台适配器
+  - aiocqhttp
